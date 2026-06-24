@@ -168,6 +168,21 @@
       letter-spacing: 0.04em;
     }
 
+    /* ── Track label ── */
+    .track-label {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #0d1b2a;
+      background: #e8eef4;
+      border-left: 3px solid #0d1b2a;
+      padding: 8px 14px;
+      margin: 28px 0 12px;
+      border-radius: 0 3px 3px 0;
+    }
+
     /* ── Decision steps ── */
     .steps {
       counter-reset: step;
@@ -255,9 +270,9 @@
 
   <!-- ── PAGE HEADER ── -->
   <div class="page-header">
-    <div class="label">Leadership Brief &nbsp;·&nbsp; June 2026 &nbsp;·&nbsp; Pre-meeting reading</div>
+    <div class="label">Data Analytics Strategy &nbsp;·&nbsp; Leadership Team &nbsp;·&nbsp; September 2026 &nbsp;·&nbsp; For information: Board</div>
     <h1>Brim Explorer —<br>Towards a Data-Driven Organisation</h1>
-    <div class="sub">Prepared for the Brim Explorer leadership team</div>
+    <div class="sub">Brim Explorer &amp; Brim Tech &nbsp;·&nbsp; Joint initiative</div>
   </div>
 
   <div class="container">
@@ -268,7 +283,11 @@
       <ul>
         <li>
           <span class="bullet">→</span>
-          <span><strong>What does data-driven mean?</strong> Producing insight of sufficient quality to be used in governance and decision-making — about our own organisation, processes and customers. This is not a technology project. It is a management and prioritisation project.</span>
+          <span><strong>Joint initiative:</strong> Brim Explorer and Brim Tech are launching a shared data analytics initiative — organised into two parallel tracks: Business Analytics (Brim Explorer) and Vessel Analytics (Brim Tech / Brim Explorer).</span>
+        </li>
+        <li>
+          <span class="bullet">→</span>
+          <span><strong>What does data-driven mean?</strong> Producing insight of sufficient quality to be used in management, cost control, and growth strategy. This is not a technology project — it is a management and prioritisation project.</span>
         </li>
         <li>
           <span class="bullet">→</span>
@@ -276,39 +295,42 @@
         </li>
         <li>
           <span class="bullet">→</span>
-          <span><strong>Five insight domains:</strong> Finance, customers, employees, vessel construction, and operations &amp; maintenance. All rated high priority.</span>
+          <span><strong>Two tracks, five domains:</strong> Business Track — Sales &amp; Marketing, Accounting &amp; Finance, HR. Vessel Track — Vessel Construction, Operations, Maintenance.</span>
         </li>
         <li>
           <span class="bullet">→</span>
-          <span><strong>What is required:</strong> Leadership buy-in, data access, business-side resources internally, 2–3 internal champions with concrete needs, and specialists (AI/ML) at a later stage.</span>
+          <span><strong>What is required:</strong> Clear ownership, leadership involvement, realistic expectations, small working solutions, and a formal interface between the two companies.</span>
         </li>
         <li>
           <span class="bullet">→</span>
-          <span><strong>Four necessary decisions:</strong> Technology and cloud choice, security and GDPR, data governance, and post-project ownership and maintenance.</span>
+          <span><strong>Recommended approach:</strong> Mapping (2–4 weeks) → Pilot (4–8 weeks) → Expansion → Advanced Analytics from 2027. Minimises risk and delivers visible value quickly.</span>
         </li>
         <li>
           <span class="bullet">→</span>
-          <span><strong>Recommended approach:</strong> Discovery (2–4 weeks) → pilot on one domain (4–8 weeks) → gradual expansion. Minimises risk and delivers visible value quickly.</span>
-        </li>
-        <li>
-          <span class="bullet">→</span>
-          <span><strong>Next step:</strong> The leadership team aligns on direction and appoints an internal project owner.</span>
+          <span><strong>Leadership decides:</strong> Strategic direction, resource allocation, ownership structure, and data-sharing governance between companies. The Board is informed of decisions taken.</span>
         </li>
       </ul>
     </div>
 
     <!-- ── BACKGROUND ── -->
     <div class="section">
-      <h2>Background and Purpose</h2>
-      <p>This brief describes what it means to become more data-driven, what is required to succeed, and which decisions the leadership team must make before work can begin.</p>
-      <p>The goal is not a large IT project. The goal is to give Brim Explorer access to insight about its own organisation, processes and customers — of sufficient quality to be actively used in governance and decision-making.</p>
+      <h2>1. Background and Purpose</h2>
+      <p>Brim Explorer and Brim Tech currently operate with data spread across multiple systems — accounting systems, booking platforms, HR tools, operational logs, and shipbuilding project data. The insight that exists is largely produced manually and is not available in real time.</p>
+      <p>This has three concrete consequences:</p>
+      <ul>
+        <li>Decisions are made on the basis of outdated or incomplete information</li>
+        <li>Resources are spent on manual aggregation rather than analysis</li>
+        <li>Patterns and trends are discovered too late to act on</li>
+      </ul>
+      <p>The purpose of this initiative is to address this — gradually and in a controlled manner — by building insight capacity where it delivers the greatest business value.</p>
+      <p>This is a <strong>joint initiative</strong> between Brim Explorer and Brim Tech. Business data belongs primarily to Brim Explorer (passengers, routes, finance, HR), while vessel data spans both companies (construction at Brim Tech, operations and maintenance at Brim Explorer). Collaboration and a shared data foundation are therefore a prerequisite.</p>
     </div>
 
     <hr />
 
     <!-- ── WHAT DOES IT MEAN ── -->
     <div class="section">
-      <h2>What Does It Mean to Be Data-Driven?</h2>
+      <h2>2. What Does It Mean to Be Data-Driven?</h2>
       <p>A data-driven organisation produces insight of sufficient quality for use in decision-making processes. It is not primarily about technology — it is about understanding your own business better.</p>
       <p>In practice, this means three things:</p>
       <ol class="steps">
@@ -316,154 +338,190 @@
         <li><span><strong>Automated consolidation</strong> — reports and overviews that are currently produced manually are generated automatically and consistently.</span></li>
         <li><span><strong>Access to history</strong> — the ability to identify patterns over time, not just point-in-time snapshots.</span></li>
       </ol>
-      <p>It is important to have realistic expectations about sequencing. Advanced decision support does not come immediately. Early in the process, the work is about verifying that you have understood the data and that it reflects reality. Higher-level insight — with dependencies across systems — follows naturally once the foundation is in place.</p>
+      <p>The path there is not straightforward. Early on, the work is about verifying that data exists, that it is reliable, and that it actually reflects reality. More advanced analysis and cross-system decision support comes after this foundation is in place.</p>
     </div>
 
     <hr />
 
-    <!-- ── DOMAINS ── -->
+    <!-- ── TWO TRACKS ── -->
     <div class="section">
-      <h2>Priority Insight Domains</h2>
-      <p>We propose structuring the work around five domains that are critical to Brim Explorer's operations and growth:</p>
+      <h2>3. Two Parallel Tracks</h2>
+      <p>The initiative is structured into two tracks with different data logic, different systems, and different decision-makers — but with shared infrastructure and a shared methodology.</p>
+
+      <div class="track-label">Track 1 — Business Analytics (Brim Explorer)</div>
+      <p>This track covers the commercial and administrative core of Brim Explorer.</p>
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
               <th>Domain</th>
               <th>Examples of insight</th>
-              <th>Priority</th>
+              <th>Business Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><strong>Finance</strong></td>
-              <td>Cost trends, liquidity overview, variance against budget, etc.</td>
-              <td><span class="badge">High</span></td>
+              <td><strong>Sales &amp; Marketing</strong></td>
+              <td>Passenger volumes per route and season, price sensitivity, customer categories, route occupancy</td>
+              <td>Better capacity utilisation, foundation for pricing strategy, identification of growth segments</td>
             </tr>
             <tr>
-              <td><strong>Customers</strong></td>
-              <td>Passenger volume per route, seasonal trends, customer categories, etc.</td>
-              <td><span class="badge">High</span></td>
+              <td><strong>Accounting &amp; Finance</strong></td>
+              <td>Cost development per route/vessel, variance against budget, liquidity forecasts, revenue per passenger</td>
+              <td>Faster detection of cost overruns, improved liquidity management, accurate budget forecasts</td>
             </tr>
             <tr>
-              <td><strong>Employees</strong></td>
-              <td>Staffing overview, absence patterns, competency needs, turnover, etc.</td>
-              <td><span class="badge">High</span></td>
-            </tr>
-            <tr>
-              <td><strong>Vessel Construction</strong></td>
-              <td>Build status, milestones, cost vs. budget, supplier performance, etc.</td>
-              <td><span class="badge">High</span></td>
-            </tr>
-            <tr>
-              <td><strong>Operations &amp; Maintenance</strong></td>
-              <td>Uptime, fault logs, maintenance history, energy consumption per vessel, etc.</td>
-              <td><span class="badge">High</span></td>
+              <td><strong>HR &amp; Staffing</strong></td>
+              <td>Staffing overview, absence patterns, competency requirements, turnover, certificate expiry</td>
+              <td>Reduced sick leave and turnover, better staffing planning, avoid competency gaps</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <p>Finance and customers are proposed as the starting point, as they are closest to the core of business management and typically have data available in existing systems. <em>Note: Operations &amp; Maintenance may be equally accessible as a starting point — worth exploring.</em></p>
-    </div>
 
-    <hr />
-
-    <!-- ── REQUIREMENTS ── -->
-    <div class="section">
-      <h2>What Is Required to Succeed</h2>
-      <p>Technical competence can be sourced externally. What determines whether the project succeeds is largely internal enablement:</p>
-
-      <h3>1. Leadership buy-in</h3>
-      <p>The work must have clear backing from leadership — not just as approval, but as active understanding of the value proposition. Without it, the project stalls at the first prioritisation conflict.</p>
-
-      <h3>2. Data access</h3>
-      <p>We need access to the relevant systems: accounting system, booking data, HR system, vessel operations log, etc. Access must be clarified early, as this is often where projects encounter unexpected obstacles.</p>
-
-      <h3>3. Business-side resources</h3>
-      <p>Insight without business understanding is worthless. We need people internally who:</p>
-      <ul>
-        <li>Know which insight is relevant and should be prioritised</li>
-        <li>Can help verify that what is built actually reflects reality</li>
-        <li>Are willing to use the solution actively throughout the process</li>
-      </ul>
-
-      <h3>4. Internal champions</h3>
-      <p>The most successful data projects are driven by concrete needs from concrete people. We need 2–3 internal champions with specific problems they want to solve — and who are willing to test and provide feedback on an ongoing basis.</p>
-
-      <h3>5. Specialists when needed</h3>
-      <p>Once the solution is mature enough, it may be relevant to bring in specialists in AI/ML, market analysis or similar disciplines. This is step two, not step one.</p>
-    </div>
-
-    <hr />
-
-    <!-- ── DECISIONS ── -->
-    <div class="section">
-      <h2>Decisions Required</h2>
-      <p>Once the leadership team has aligned on direction, a number of practical questions must be resolved. These are listed below as decision points.</p>
+      <div class="track-label">Track 2 — Vessel Analytics (Brim Tech / Brim Explorer)</div>
+      <p>This track covers the entire vessel lifecycle — from construction to operations to maintenance. It is a shared responsibility between Brim Tech (construction and technology) and Brim Explorer (operations and maintenance).</p>
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>Question</th>
-              <th>Owner</th>
-              <th>Timing</th>
+              <th>Domain</th>
+              <th>Examples of insight</th>
+              <th>Business Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><strong>Technology choice:</strong> Which analytics platform? Which cloud? Which version control?</td>
-              <td>TBA</td>
-              <td>At kick-off</td>
+              <td><strong>Vessel Construction</strong></td>
+              <td>Build status per milestone, cost vs. budget, supplier performance, defect handling, hours consumed</td>
+              <td>Earlier detection of delays and overruns, improved supplier management, documented build process</td>
             </tr>
             <tr>
-              <td><strong>Security and integration:</strong> Data access requirements, integration with existing IT systems, GDPR handling</td>
-              <td>TBA</td>
-              <td>At kick-off</td>
+              <td><strong>Operations</strong></td>
+              <td>Operating time per vessel, energy consumption per route and season, deviation from schedule, charging logs</td>
+              <td>Early identification of operational anomalies, optimise routes and charging logistics, reduce energy costs</td>
             </tr>
             <tr>
-              <td><strong>Data governance:</strong> Who decides what data can be used for what? Who has access to which insights?</td>
-              <td>TBA</td>
-              <td>At kick-off</td>
-            </tr>
-            <tr>
-              <td><strong>Post-project ownership:</strong> Should someone be trained internally? Should a dedicated resource be hired? Should an external consultant handle maintenance?</td>
-              <td>TBA</td>
-              <td>Early phase</td>
-            </tr>
-            <tr>
-              <td><strong>Champion selection:</strong> Which two or three internal people should actively participate in the testing phase?</td>
-              <td>TBA</td>
-              <td>At kick-off</td>
+              <td><strong>Maintenance</strong></td>
+              <td>Maintenance history per component, fault logs, time spent, costs, predictive patterns</td>
+              <td>Transition from reactive to planned maintenance, reduced downtime, lower maintenance costs</td>
             </tr>
           </tbody>
         </table>
       </div>
+      <p><em>The Vessel Track is particularly strategic for Brim Tech: structured operational and maintenance data is a competitive advantage in tenders and in the development of the Vessel Lifecycle Orchestration platform.</em></p>
+    </div>
+
+    <hr />
+
+    <!-- ── WHAT THIS CAN DELIVER ── -->
+    <div class="section">
+      <h2>4. What This Strategy Can Deliver</h2>
+      <p>The initiative is designed to deliver value along two dimensions:</p>
+
+      <h3>Cost Reduction</h3>
+      <ul>
+        <li><strong>Finance:</strong> Faster anomaly detection means faster correction. Automated reports free up time spent on manual extracts.</li>
+        <li><strong>Operations:</strong> Energy optimisation and reduced downtime deliver direct cost savings per vessel.</li>
+        <li><strong>Maintenance:</strong> Planned maintenance is cheaper than reactive maintenance. Operational data provides the basis for planning correctly.</li>
+        <li><strong>HR:</strong> Better staffing planning reduces agency costs and overtime.</li>
+      </ul>
+
+      <h3>Foundation for Growth</h3>
+      <ul>
+        <li><strong>Market:</strong> Insight into route occupancy and customer behaviour provides a basis for expanding and optimising the route offering.</li>
+        <li><strong>Vessel Construction:</strong> Structured build data gives Brim Tech a documentation foundation for tenders and scaling to external customers.</li>
+        <li><strong>Vessel Lifecycle Orchestration:</strong> Vessel data from operations and maintenance is the very core of Brim Tech's future service platform — and value accumulates from day one.</li>
+      </ul>
     </div>
 
     <hr />
 
     <!-- ── APPROACH ── -->
     <div class="section">
-      <h2>Proposed Approach and Steps</h2>
-      <p>We recommend a phased approach rather than a large project with a long time horizon:</p>
+      <h2>5. Approach and Phases</h2>
+      <p>We recommend a phased approach that minimises risk and delivers visible value early:</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Phase</th>
+              <th>Content</th>
+              <th>Duration</th>
+              <th>Deliverable</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>1. Mapping</strong></td>
+              <td>Identify what data exists, where it resides, and what quality challenges exist. Interviews with 3–5 internal stakeholders per track to define concrete needs and prioritised use cases.</td>
+              <td>2–4 weeks</td>
+              <td>Data map, prioritised use case list per track</td>
+            </tr>
+            <tr>
+              <td><strong>2. Pilot</strong></td>
+              <td>Build one simple, functioning insight solution per track — based on the highest-priority use case. Verify that data and logic align with reality.</td>
+              <td>4–8 weeks</td>
+              <td>Two functioning pilot solutions (one per track)</td>
+            </tr>
+            <tr>
+              <td><strong>3. Expansion</strong></td>
+              <td>Following a successful pilot: gradual expansion to the remaining domains in each track. Establish routines for maintaining and updating solutions.</td>
+              <td>Ongoing</td>
+              <td>Insight capacity across all five domains</td>
+            </tr>
+            <tr>
+              <td><strong>4. Advanced Analytics</strong></td>
+              <td>When the data foundation is solid: cross-domain analysis, predictive models, and integration with Brim Tech's Vessel Lifecycle Orchestration platform.</td>
+              <td>From 2027</td>
+              <td>Predictive maintenance, cross-system insight, platform integration</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>Tentative timeline:</strong> Phase 1 begins autumn 2026. Phase 2 (pilot) is expected to run from late autumn 2026 into early 2027.</p>
+    </div>
+
+    <hr />
+
+    <!-- ── SUCCESS FACTORS ── -->
+    <div class="section">
+      <h2>6. Key Success Factors</h2>
+      <p>Experience from similar initiatives shows that the technical solution is rarely the limiting factor. What matters is:</p>
+      <ul>
+        <li><strong>Clear ownership</strong> — someone in each track who is accountable for the initiative and takes responsibility for data quality</li>
+        <li><strong>Leadership involvement</strong> — the use cases must come from leaders who actually use the insight in their work</li>
+        <li><strong>Realistic expectations</strong> — data quality issues will be discovered, and fixing them takes time</li>
+        <li><strong>Small, working solutions</strong> — one functioning dashboard is worth more than an ambitious system that never gets deployed</li>
+        <li><strong>Interface between companies</strong> — a formal data-sharing agreement between Brim Explorer and Brim Tech is required before the Vessel Track can be fully activated</li>
+      </ul>
+    </div>
+
+    <hr />
+
+    <!-- ── DECISIONS ── -->
+    <div class="section">
+      <h2>7. Decisions — Leadership Responsibility</h2>
+      <p>The following decisions rest with company leadership. The Board is informed of the direction taken.</p>
       <ol class="steps">
-        <li><span><strong>Discovery (2–4 weeks)</strong> — Identify which data exists, where it lives, and what quality challenges are present. Interview 3–5 internal stakeholders about their most important decision-making needs.</span></li>
-        <li><span><strong>Pilot on one domain (4–8 weeks)</strong> — Build a simple, working insight solution for one priority domain (recommended: Finance or Customers). Verify that data and logic align with reality.</span></li>
-        <li><span><strong>Expansion (ongoing)</strong> — After a successful pilot: gradually extend to the remaining domains based on prioritised needs and available capacity.</span></li>
+        <li><span><strong>Strategic direction:</strong> Leadership confirms this initiative as a joint strategic priority for Brim Explorer and Brim Tech.</span></li>
+        <li><span><strong>Resources:</strong> Leadership allocates budget and capacity for the mapping phase and pilot.</span></li>
+        <li><span><strong>Ownership:</strong> Leadership designates an executive sponsor in each company and an operational owner per track.</span></li>
+        <li><span><strong>Inter-company interface:</strong> Leadership defines how data sharing and cost allocation between Brim Explorer and Brim Tech are governed.</span></li>
       </ol>
-      <p>This approach minimises risk, delivers visible value quickly, and builds internal trust in the solution.</p>
     </div>
 
     <hr />
 
     <!-- ── WHAT THIS IS NOT ── -->
     <div class="section">
-      <h2>What This Is Not</h2>
+      <h2>8. What This Is Not</h2>
       <div class="not-this">
         <ul>
-          <li>A data warehouse project that takes 18 months before anyone sees anything.</li>
-          <li>An AI project. AI may come in at a later stage, but is not a prerequisite.</li>
-          <li>An IT project driven by the technology department without business ownership.</li>
+          <li>A single large ERP replacement or system procurement</li>
+          <li>A project that delivers everything at once — it is an iterative process over time</li>
+          <li>Purely a technology project — it requires business ownership and engagement from leaders</li>
+          <li>AI or advanced machine learning from day one — that comes after the data foundation is in place</li>
         </ul>
       </div>
     </div>
@@ -472,20 +530,22 @@
 
     <!-- ── NEXT STEPS ── -->
     <div class="section">
-      <h2>Recommended Next Steps</h2>
-      <p>We ask the leadership team to take a position on the following:</p>
+      <h2>9. Leadership Decision</h2>
+      <p>Leadership has decided to:</p>
       <ol class="steps">
-        <li><span><strong>Principle approval</strong> — Does the leadership team agree that this is the right priority now?</span></li>
-        <li><span><strong>Resource clarification</strong> — Who internally will own the project and serve as champion?</span></li>
-        <li><span><strong>Technical clarification</strong> — The CTO is given a mandate to define the technology and security framework by [date].</span></li>
-        <li><span><strong>Kick-off meeting</strong> — Set a date for the first working session with relevant internal resources.</span></li>
+        <li><span>Launch the data analytics initiative as a joint strategic priority for Brim Explorer and Brim Tech</span></li>
+        <li><span>Allocate a budget frame for Phase 1 (Mapping) and Phase 2 (Pilot) — with a checkpoint before Phase 3</span></li>
+        <li><span>Designate an executive sponsor in each company with overall responsibility for the initiative</span></li>
+        <li><span>Establish agreements on data sharing and cost allocation between the companies for the Vessel Track</span></li>
       </ol>
+      <p>The Board is briefed on this direction for information.</p>
+      <p><em>This document is a working draft. Concrete use cases from leadership interviews will be added as they are confirmed. Last updated: June 2026.</em></p>
     </div>
 
   </div><!-- /container -->
 
   <div class="page-footer">
-    Brim Explorer &nbsp;·&nbsp; Leadership Brief &nbsp;·&nbsp; June 2026 &nbsp;·&nbsp; Confidential
+    Brim Explorer &amp; Brim Tech &nbsp;·&nbsp; Leadership Team &nbsp;·&nbsp; September 2026 &nbsp;·&nbsp; For information: Board &nbsp;·&nbsp; Confidential
   </div>
 
 </body>
